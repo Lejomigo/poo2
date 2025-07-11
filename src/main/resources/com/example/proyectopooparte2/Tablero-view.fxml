@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="768" prefWidth="1366" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectopooparte2.controllers.TableroController">
+   <children>
+
+
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#d7d7d7" height="672.0" layoutX="-12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="666.0" />
+
+      <Rectangle id="box1" fx:id="box1" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="612.5" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box2" fx:id="box2" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="607.9" layoutY="364.6" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box3" fx:id="box3" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="594.4" layoutY="415.1" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box4" fx:id="box4" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="572.3" layoutY="462.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box5" fx:id="box5" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="542.3" layoutY="505.3" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box6" fx:id="box6" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="505.3" layoutY="542.3" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box7" fx:id="box7" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="462.5" layoutY="572.3" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box8" fx:id="box8" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="415.1" layoutY="594.4" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box9" fx:id="box9" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="364.6" layoutY="607.9" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box10" fx:id="box10" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="312.5" layoutY="612.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box11" fx:id="box11" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="260.4" layoutY="607.9" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box12" fx:id="box12" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="209.9" layoutY="594.4" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box13" fx:id="box13" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="162.5" layoutY="572.3" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box14" fx:id="box14" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="119.7" layoutY="542.3" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box15" fx:id="box15" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="82.7" layoutY="505.3" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box16" fx:id="box16" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="52.7" layoutY="462.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box17" fx:id="box17" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="30.6" layoutY="415.1" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box18" fx:id="box18" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="17.1" layoutY="364.6" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box19" fx:id="box19" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="12.5" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box20" fx:id="box20" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="17.1" layoutY="260.4" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box21" fx:id="box21" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="30.6" layoutY="209.9" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box22" fx:id="box22" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="52.7" layoutY="162.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box23" fx:id="box23" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="82.7" layoutY="119.7" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box24" fx:id="box24" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="119.7" layoutY="82.7" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box25" fx:id="box25" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="162.5" layoutY="52.7" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box26" fx:id="box26" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="209.9" layoutY="30.6" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box27" fx:id="box27" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="260.4" layoutY="17.1" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box28" fx:id="box28" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="312.5" layoutY="12.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box29" fx:id="box29" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="364.6" layoutY="17.1" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box30" fx:id="box30" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="415.1" layoutY="30.6" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box31" fx:id="box31" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="462.5" layoutY="52.7" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box32" fx:id="box32" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="505.3" layoutY="82.7" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box33" fx:id="box33" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="542.3" layoutY="119.7" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box34" fx:id="box34" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="572.3" layoutY="162.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box35" fx:id="box35" arcHeight="5.0" arcWidth="5.0" fill="RED" height="35.0" layoutX="594.4" layoutY="209.9" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="box36" fx:id="box36" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="607.9" layoutY="260.4" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <!-- Rayos horizontales -->
+      <Rectangle id="ray16" fx:id="ray16" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="65.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray17" fx:id="ray17" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="115.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray18" fx:id="ray18" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="165.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray19" fx:id="ray19" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="215.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray20" fx:id="ray20" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="265.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+
+      <!-- Rayos diagonales superiores izquierdos -->
+      <Rectangle id="ray21" fx:id="ray21" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="180.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray22" fx:id="ray22" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="210.0" layoutY="125.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray23" fx:id="ray23" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="240.0" layoutY="165.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray24" fx:id="ray24" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="270.0" layoutY="205.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray25" fx:id="ray25" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="295.0" layoutY="245.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+
+      <!-- Rayos diagonales superiores derechos -->
+      <Rectangle id="ray26" fx:id="ray26" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="445.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray27" fx:id="ray27" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="415.0" layoutY="125.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray28" fx:id="ray28" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="385.0" layoutY="165.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray29" fx:id="ray29" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="355.0" layoutY="205.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray30" fx:id="ray30" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="330.0" layoutY="245.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+
+      <!-- Rayos horizontales derechos -->
+      <Rectangle id="ray1" fx:id="ray1" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="560.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray2" fx:id="ray2" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="510.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray3" fx:id="ray3" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="460.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray4" fx:id="ray4" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="410.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray5" fx:id="ray5" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="360.0" layoutY="312.5" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+
+      <!-- Rayos diagonales inferiores derechos -->
+      <Rectangle id="ray6" fx:id="ray6" arcHeight="5.0" arcWidth="5.0" fill="#ff8800" height="35.0" layoutX="443.0" layoutY="535.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray7" fx:id="ray7" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="415.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray8" fx:id="ray8" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="385.0" layoutY="463.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray9" fx:id="ray9" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="355.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray10" fx:id="ray10" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="330.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+
+      <!-- Rayos diagonales inferiores izquierdos -->
+      <Rectangle id="ray11" fx:id="ray11" arcHeight="5.0" arcWidth="5.0" fill="#e5ff00" height="35.0" layoutX="180.0" layoutY="540.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray12" fx:id="ray12" arcHeight="5.0" arcWidth="5.0" fill="#0f00ff" height="35.0" layoutX="210.0" layoutY="500.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray13" fx:id="ray13" arcHeight="5.0" arcWidth="5.0" fill="#ff00b7" height="35.0" layoutX="240.0" layoutY="460.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray14" fx:id="ray14" arcHeight="5.0" arcWidth="5.0" fill="#7700ff" height="35.0" layoutX="270.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle id="ray15" fx:id="ray15" arcHeight="5.0" arcWidth="5.0" fill="#25ff00" height="35.0" layoutX="295.0" layoutY="380.0" stroke="BLACK" strokeType="INSIDE" width="35.0" />
+      <Rectangle fx:id="center" arcHeight="5.0" arcWidth="5.0" fill="RED" height="52.0" layoutX="303.0" layoutY="303.0" stroke="BLACK" strokeType="INSIDE" width="55.0" />
+      <Label layoutX="779.0" layoutY="30.0" prefHeight="36.0" prefWidth="101.0" text="Player:">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Label>
+      <Button id="btnExit" layoutX="1220.0" layoutY="619.0" mnemonicParsing="false" onAction="#onExit" prefHeight="72.0" prefWidth="85.0" />
+      <ImageView fx:id="btnExit" fitHeight="66.0" fitWidth="85.0" layoutX="1230.0" layoutY="622.0" onMouseClicked="#onExit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/exit.png" />
+         </image>
+      </ImageView>
+      <Button id="btnFlag" layoutX="1107.0" layoutY="619.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="85.0" />
+      <ImageView fx:id="btnFlag" fitHeight="66.0" fitWidth="85.0" layoutX="1117.0" layoutY="622.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/flag.png" />
+         </image>
+      </ImageView>
+      <Group fx:id="pieceView" layoutX="230.0" layoutY="229.0" scaleX="0.5" scaleY="0.5">
+
+         <!-- Sector 1 -->
+         <Path fx:id="Azul" fill="#ffffff" stroke="BLACK">
+            <elements>
+               <MoveTo x="100" y="100" />
+               <LineTo x="135.0" y="100.0" />
+               <ArcTo radiusX="35" radiusY="35" sweepFlag="true" x="117.5" y="130.31" />
+               <ClosePath />
+            </elements>
+         </Path>
+
+         <!-- Sector 2 -->
+         <Path fx:id="Amarillo" fill="#ffffff" stroke="BLACK">
+            <elements>
+               <MoveTo x="100" y="100" />
+               <LineTo x="117.5" y="130.31" />
+               <ArcTo radiusX="35" radiusY="35" sweepFlag="true" x="82.5" y="130.31" />
+               <ClosePath />
+            </elements>
+         </Path>
+
+         <!-- Sector 3 -->
+         <Path fx:id="Verde" fill="#ffffff" stroke="BLACK">
+            <elements>
+               <MoveTo x="100" y="100" />
+               <LineTo x="82.5" y="130.31" />
+               <ArcTo radiusX="35" radiusY="35" sweepFlag="true" x="65.0" y="100.0" />
+               <ClosePath />
+            </elements>
+         </Path>
+
+         <!-- Sector 4 -->
+         <Path fx:id="Naranja" fill="#ffffff" stroke="BLACK">
+            <elements>
+               <MoveTo x="100" y="100" />
+               <LineTo x="65.0" y="100.0" />
+               <ArcTo radiusX="35" radiusY="35" sweepFlag="true" x="82.5" y="69.69" />
+               <ClosePath />
+            </elements>
+         </Path>
+
+         <!-- Sector 5 -->
+         <Path fx:id="Morado" fill="#ffffff" stroke="BLACK">
+            <elements>
+               <MoveTo x="100" y="100" />
+               <LineTo x="82.5" y="69.69" />
+               <ArcTo radiusX="35" radiusY="35" sweepFlag="true" x="117.5" y="69.69" />
+               <ClosePath />
+            </elements>
+         </Path>
+
+         <!-- Sector 6 -->
+         <Path fx:id="Rosado" fill="#ffffff" stroke="BLACK">
+            <elements>
+               <MoveTo x="100" y="100" />
+               <LineTo x="117.5" y="69.69" />
+               <ArcTo radiusX="35" radiusY="35" sweepFlag="true" x="135.0" y="100.0" />
+               <ClosePath />
+            </elements>
+         </Path>
+
+      </Group>
+      <Button id="dade" fx:id="dade" layoutX="664.0" layoutY="11.0" mnemonicParsing="false" onAction="#onDade" prefHeight="83.0" prefWidth="95.0" text="Lanzar dado">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font></Button>
+      <Label fx:id="dadeNum" layoutX="664.0" layoutY="94.0" prefHeight="52.0" prefWidth="66.0" text="">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="namePlayer" layoutX="890.0" layoutY="15.0" prefHeight="66.0" prefWidth="415.0" text="Aqui va el nombre del jugador">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font></Label>
+      <Label layoutX="780.0" layoutY="77.0" prefHeight="52.0" prefWidth="165.0" text="Categorias:">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="categorias" layoutX="780.0" layoutY="127.0" prefHeight="298.0" prefWidth="522.0">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font></Label>
+      <Label layoutX="793.0" layoutY="445.0" text="Tiempo Respondiendo: ">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="seg" layoutX="1113.0" layoutY="445.0" text="Seg">
+         <font>
+            <Font name="Arial" size="30.0" />
+         </font>
+      </Label>
+   </children>
+
+</AnchorPane>

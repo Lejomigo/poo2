@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="TabQuestion" prefHeight="160.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectopooparte2.controllers.PreguntaController">
+
+    <children>
+          <Button fx:id="botonResponder" layoutX="330.0" layoutY="101.0" prefHeight="25.0" prefWidth="28.0" text="✅" />
+          <TextField fx:id="inputRespuesta" layoutX="18.0" layoutY="101.0" prefHeight="25.0" prefWidth="309.0" promptText="Escribe tu respuesta aquí">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="10.0" layoutY="30.0" prefHeight="17.0" prefWidth="58.0" text="Categoría:" />
+      <Label fx:id="labelCategoria" layoutX="72.0" layoutY="30.0" prefHeight="17.0" prefWidth="151.0" text="Aqui va la categoria">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPregunta" layoutX="10.0" layoutY="63.0" prefHeight="25.0" prefWidth="546.0" text="aqui va la pregumta">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelSegundos" layoutX="473.0" layoutY="12.0" prefHeight="37.0" prefWidth="46.0" text="seg" />
+    </children>
+
+</AnchorPane>
