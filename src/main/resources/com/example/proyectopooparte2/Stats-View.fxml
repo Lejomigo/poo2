@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectopooparte2.controllers.StatsController">
    <children>
        <Label fx:id="labelStats" layoutX="37.0" layoutY="14.0" prefHeight="425.0" prefWidth="477.0" text="stats" wrapText="true">
@@ -12,5 +11,10 @@
                <Font name="Arial" size="15.0" />
            </font>
        </Label>
+      <Button onAction="#onVolver" layoutX="514.0" layoutY="391.0" mnemonicParsing="false" text="volver">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

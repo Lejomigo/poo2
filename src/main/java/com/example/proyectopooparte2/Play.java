@@ -12,7 +12,7 @@ public class Play extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Tablero-view.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Menu-view.fxml"));
 
         // Usamos javafx.geometry.Rectangle2D
         Rectangle2D screenBounds = Screen.getPrimary().getVisualBounds();

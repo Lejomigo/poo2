@@ -10,7 +10,7 @@
          <font>
             <Font name="Arial" size="54.0" />
          </font></Label>
-      <Button fx:id="btnNewGame" layoutX="615.0" layoutY="333.0" mnemonicParsing="false" prefWidth="150" text="Partida Nueva" textAlignment="CENTER">
+      <Button onAction="#onPlay" fx:id="btnNewGame" layoutX="615.0" layoutY="333.0" mnemonicParsing="false" prefWidth="150" text="Partida Nueva" textAlignment="CENTER">
          <font>
             <Font name="Arial" size="15.0" />
          </font>
@@ -20,7 +20,7 @@
             <Font name="Arial" size="15.0" />
          </font>
       </Button>
-      <Button fx:id="btnStats" layoutX="615.0" layoutY="408.0" mnemonicParsing="false" prefWidth="150" text="Estadisticas" textAlignment="CENTER">
+      <Button onAction="#onStats" fx:id="btnStats" layoutX="615.0" layoutY="408.0" mnemonicParsing="false" prefWidth="150" text="Estadisticas" textAlignment="CENTER">
          <font>
             <Font size="15.0" />
          </font>

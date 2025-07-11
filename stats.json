@@ -1,29 +1,3 @@
 [
-  {
-    "id": "co",
-    "name": "player3",
-    "totalAnswered": 0,
-    "totalCorrect": 0,
-    "totalWins": 0,
-    "totalLoses": 0,
-    "totalSecondsAns": 5
-  },
-  {
-    "id": "1",
-    "name": "player1",
-    "totalAnswered": 0,
-    "totalCorrect": 0,
-    "totalWins": 0,
-    "totalLoses": 0,
-    "totalSecondsAns": 12
-  },
-  {
-    "id": "2",
-    "name": "player2",
-    "totalAnswered": 0,
-    "totalCorrect": 0,
-    "totalWins": 0,
-    "totalLoses": 0,
-    "totalSecondsAns": 1
-  }
+
 ]

@@ -4,16 +4,15 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <AnchorPane prefHeight="251.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectopooparte2.controllers.SecondsController">
    <children>
-      <TextField  fx:id="secField" layoutX="130.0" layoutY="113.0" />
+      <TextField fx:id="secField" layoutX="130.0" layoutY="113.0" />
       <Label layoutX="84.0" layoutY="36.0" text="Ingrese tiempo límite por turno:">
          <font>
             <Font name="Arial" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="errorLabel" layoutX="188.0" layoutY="79.0" text="Inválido" textFill="RED" />
+      <Label fx:id="errorLabel" layoutX="155.0" layoutY="81.0" text="Inválido" textFill="RED" />
       <Button fx:id="irBtn" layoutX="197.0" layoutY="158.0" mnemonicParsing="false" text="Ir" />
    </children>
 </AnchorPane>

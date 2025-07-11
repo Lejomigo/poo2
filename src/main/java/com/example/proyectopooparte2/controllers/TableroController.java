@@ -5,9 +5,11 @@ import com.example.proyectopooparte2.model.Board.BoxesGrafo;
 import com.example.proyectopooparte2.model.Game.GameLogic;
 import com.example.proyectopooparte2.model.Game.Piece;
 import com.example.proyectopooparte2.model.Game.Player;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
@@ -64,6 +66,16 @@ public class TableroController {
     public void initialize(){
         centerBox = new Box(center.getId(), center,center.getFill());
         pedirSegundos();
+        centerBox.getBoxview().setUserData(centerBox);
+        centerBox.getBoxview().setOnMouseClicked(event -> {
+            Box clickedBox = (Box) ((Rectangle) event.getSource()).getUserData();
+            System.out.println("Clicked box id: " + clickedBox.getId());
+
+            // Deshabilitar la casilla para evitar más clicks
+            clickedBox.getBoxview().setDisable(true);
+
+            // Aquí puedes agregar más lógica para cuando se haga click en el centro
+        });
 
         Piece piece1 = new Piece(new Player("1","player1"));
         Piece piece2 = new Piece(new Player("2","player2"));
@@ -172,7 +184,7 @@ public class TableroController {
         piece.setPiece(pieceView);
         grafo = new BoxesGrafo();
 
-        centerBox.getBoxview().setUserData(center);
+        centerBox.getBoxview().setUserData(centerBox);
         grafo.createGrafo(boxesList,raysList,centerBox);
 
 
@@ -317,4 +329,25 @@ public class TableroController {
     public void setPieceView(Group pieceView) {
         this.pieceView = pieceView;
     }
+
+    @FXML
+    public void onVolver(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/proyectopooparte2/Menu-view.fxml"));
+            Parent root = loader.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Menú");
+            stage.setScene(new Scene(root));
+            stage.show();
+
+            // Cerrar ventana actual
+            Stage currentStage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+            currentStage.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
